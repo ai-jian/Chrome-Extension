@@ -3,6 +3,14 @@ const inputEl = document.querySelector('#input-el')
 const inputBtn = document.querySelector('#input-btn')
 const ulEl = document.querySelector('#ul-el')
 
+// localStorage.setItem("myName", "Ai")
+
+// let name = localStorage.getItem('myName')
+// console.log(name)
+
+localStorage.clear()
+
+
 inputBtn.addEventListener('click', () => {
     myLeads.push(inputEl.value)
     inputEl.value = ''
