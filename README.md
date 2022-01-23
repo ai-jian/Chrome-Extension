@@ -13,6 +13,9 @@ A sales leads Chrome extension
   #### input.value
   - fatch the value from input box
   #### function parameters vs arguments
-  - [inside] A parameter is the variable which is part of the method's signature (method declaration).
-  - [outside] An argument is an expression used when calling the method.
+  - [ inside of function ] A parameter is the variable which is part of the method's signature (method declaration).
+  - [ outside of function ] An argument is an expression used when calling the method.
+  #### template strings
+  - syntax: ``` `string text ${expression} string text` ```
+  #### locaStorage
   
